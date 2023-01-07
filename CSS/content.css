@@ -1,0 +1,133 @@
+img{
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 50px;
+}
+h6{
+    color: aliceblue;
+    font-size: 15;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 92%;
+    left: 92%;
+    transform: translateX(-50%) translateY(-50%);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: white;
+    text-align:center;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+    display: inline-block;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.289);
+}
+a:active {
+    color: orange;
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0.289);
+}
+.div1 {
+    text-align: left;
+    float: right;
+    background-color: rgb(61, 56, 56);
+    margin-right: 4%;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 90%;
+    height: 54%;
+    padding: 20px;
+}
+.div2 {
+    display: inline-block;
+    text-align:center;
+    float: right;
+    background-color: rgb(61, 56, 56);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1%;
+    width: 61%;
+    height: 50%;
+    padding: 10px;
+}
+.div3 {
+    text-align: left;
+}
+.divM {
+    margin-right: 4%;
+    margin-left: 3%;
+    text-align: center;
+    background-color:  rgba(240, 248, 255, 0.289);
+}
+.divA {
+    text-align: left;
+    float: right;
+    background-color: rgb(61, 56, 56);
+    margin-right: 4%;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 90%;
+    height: 130%;
+    padding: 20px;
+}
+.divB {
+    display: inline-block;
+    text-align:left;
+    float: right;
+    background-color: rgb(61, 56, 56);
+    margin-top: 7%;
+    margin-bottom: 0;
+    margin-right: 6%;
+    width: 61%;
+    height: 10%;
+    padding: 10px;
+}
+.divC {
+    text-align: left;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: white;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li:hover ul {
+    display: block;
+    
+}
+ul li ul {
+    position: absolute;
+    width: 150px;
+    display: none;
+    align-self: center;
+}
+ul li ul li { 
+    background: #555; 
+    display: block; 
+}
+ul li ul li a {
+    display:block !important;
+} 
